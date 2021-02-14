@@ -95,3 +95,6 @@
 14-Feb-2021 15:55:23.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
 14-Feb-2021 15:55:23.571 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 14-Feb-2021 15:55:23.585 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 16398 ms
+14-Feb-2021 15:58:08.673 INFO [http-nio-8001-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+14-Feb-2021 15:58:12.851 INFO [http-nio-8001-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 15:58:12.860 INFO [http-nio-8001-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [4,187] ms

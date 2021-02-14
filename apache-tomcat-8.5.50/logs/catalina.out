@@ -338,3 +338,39 @@
 14-Feb-2021 15:55:23.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
 14-Feb-2021 15:55:23.571 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 14-Feb-2021 15:55:23.585 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 16398 ms
+14-Feb-2021 15:58:08.673 INFO [http-nio-8001-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 15:58:10.735  INFO 3399 --- [nio-8001-exec-7] b.c.w.t.TasksFrontendApplication         : Starting TasksFrontendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 3399 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 15:58:10.742  INFO 3399 --- [nio-8001-exec-7] b.c.w.t.TasksFrontendApplication         : No active profile set, falling back to default profiles: default
+2021-02-14 15:58:11.656  INFO 3399 --- [nio-8001-exec-7] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 877 ms
+2021-02-14 15:58:12.164  INFO 3399 --- [nio-8001-exec-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 15:58:12.284  INFO 3399 --- [nio-8001-exec-7] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-14 15:58:12.455  INFO 3399 --- [nio-8001-exec-7] b.c.w.t.TasksFrontendApplication         : Started TasksFrontendApplication in 2.291 seconds (JVM running for 191.274)
+2021-02-14 15:58:12.460  INFO 3399 --- [nio-8001-exec-7] b.c.w.tasksfrontend.ServletInitializer   : Root context already created (using as parent).
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 15:58:12.507  INFO 3399 --- [nio-8001-exec-7] b.c.w.tasksfrontend.ServletInitializer   : No active profile set, falling back to default profiles: default
+2021-02-14 15:58:12.758  INFO 3399 --- [nio-8001-exec-7] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 241 ms
+2021-02-14 15:58:12.763  INFO 3399 --- [nio-8001-exec-7] o.s.boot.web.servlet.RegistrationBean    : Filter errorPageFilter was not registered (possibly already registered?)
+2021-02-14 15:58:12.805  INFO 3399 --- [nio-8001-exec-7] b.c.w.tasksfrontend.ServletInitializer   : Started ServletInitializer in 0.342 seconds (JVM running for 191.623)
+14-Feb-2021 15:58:12.851 INFO [http-nio-8001-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 15:58:12.860 INFO [http-nio-8001-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [4,187] ms
+2021-02-14 15:58:57.368  INFO 3399 --- [nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-14 15:58:57.383  INFO 3399 --- [nio-8001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2021-02-14 15:58:57.577  INFO 3399 --- [nio-8001-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-14 15:58:57.592  INFO 3399 --- [nio-8001-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
