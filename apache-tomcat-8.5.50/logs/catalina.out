@@ -227,3 +227,32 @@
 14-Feb-2021 13:11:32.701 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
 14-Feb-2021 13:11:32.709 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 14-Feb-2021 13:11:32.712 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5223 ms
+14-Feb-2021 14:11:38.032 INFO [http-nio-8001-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 14:11:41.538  INFO 2428 --- [nio-8001-exec-1] b.c.w.t.TaskBackendApplication           : Starting TaskBackendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 2428 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 14:11:41.547  INFO 2428 --- [nio-8001-exec-1] b.c.w.t.TaskBackendApplication           : No active profile set, falling back to default profiles: default
+2021-02-14 14:11:42.570  INFO 2428 --- [nio-8001-exec-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-14 14:11:42.691  INFO 2428 --- [nio-8001-exec-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103ms. Found 1 JPA repository interfaces.
+2021-02-14 14:11:43.205  INFO 2428 --- [nio-8001-exec-1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 14:11:43.262  INFO 2428 --- [nio-8001-exec-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1639 ms
+2021-02-14 14:11:43.852  INFO 2428 --- [nio-8001-exec-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-14 14:11:43.971  INFO 2428 --- [nio-8001-exec-1] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2021-02-14 14:11:44.171  INFO 2428 --- [nio-8001-exec-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-14 14:11:44.344  INFO 2428 --- [nio-8001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-14 14:11:44.485  INFO 2428 --- [nio-8001-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-14 14:11:44.519  INFO 2428 --- [nio-8001-exec-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-14 14:11:45.950  INFO 2428 --- [nio-8001-exec-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-14 14:11:45.965  INFO 2428 --- [nio-8001-exec-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-14 14:11:46.581  WARN 2428 --- [nio-8001-exec-1] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-14 14:11:46.808  INFO 2428 --- [nio-8001-exec-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 14:11:47.174  INFO 2428 --- [nio-8001-exec-1] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 6.686 seconds (JVM running for 3624.411)
+14-Feb-2021 14:11:47.235 INFO [http-nio-8001-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 14:11:47.245 INFO [http-nio-8001-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [9,214] ms

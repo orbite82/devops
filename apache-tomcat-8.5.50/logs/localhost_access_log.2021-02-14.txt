@@ -2,3 +2,7 @@
 0:0:0:0:0:0:0:1 - - [14/Feb/2021:13:13:43 -0300] "GET /manager/html HTTP/1.1" 401 2562
 0:0:0:0:0:0:0:1 - admin [14/Feb/2021:13:13:48 -0300] "GET /manager/html HTTP/1.1" 200 17886
 0:0:0:0:0:0:0:1 - - [14/Feb/2021:13:13:49 -0300] "GET /favicon.ico HTTP/1.1" 200 21630
+0:0:0:0:0:0:0:1 - admin [14/Feb/2021:14:11:00 -0300] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=1DCDDF2C048A32B0D311BF925766FAF6 HTTP/1.1" 403 3529
+0:0:0:0:0:0:0:1 - admin [14/Feb/2021:14:11:14 -0300] "GET /manager/html HTTP/1.1" 200 17886
+0:0:0:0:0:0:0:1 - admin [14/Feb/2021:14:11:24 -0300] "GET /manager/html HTTP/1.1" 200 17886
+0:0:0:0:0:0:0:1 - admin [14/Feb/2021:14:11:47 -0300] "POST /manager/html/upload?org.apache.catalina.filters.CSRF_NONCE=A83A2B4CBFF9B2368A4ED6E0B0F50503 HTTP/1.1" 200 19747
