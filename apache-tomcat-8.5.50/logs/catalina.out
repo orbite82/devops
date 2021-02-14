@@ -474,3 +474,329 @@
 2021-02-14 18:03:11.494  INFO 12365 --- [io-8001-exec-58] b.c.w.tasksfrontend.ServletInitializer   : Started ServletInitializer in 0.284 seconds (JVM running for 1441.775)
 14-Feb-2021 18:03:11.520 INFO [http-nio-8001-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 14-Feb-2021 18:03:11.527 INFO [http-nio-8001-exec-58] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [3,503] ms
+14-Feb-2021 18:48:16.651 INFO [http-nio-8001-exec-67] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+14-Feb-2021 18:48:16.769 INFO [http-nio-8001-exec-74] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:48:18.244  INFO 12365 --- [io-8001-exec-74] b.c.w.t.TasksFrontendApplication         : Starting TasksFrontendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 18:48:18.248  INFO 12365 --- [io-8001-exec-74] b.c.w.t.TasksFrontendApplication         : No active profile set, falling back to default profiles: default
+2021-02-14 18:48:19.116  INFO 12365 --- [io-8001-exec-74] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 838 ms
+2021-02-14 18:48:19.556  INFO 12365 --- [io-8001-exec-74] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 18:48:19.677  INFO 12365 --- [io-8001-exec-74] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-14 18:48:19.844  INFO 12365 --- [io-8001-exec-74] b.c.w.t.TasksFrontendApplication         : Started TasksFrontendApplication in 2.011 seconds (JVM running for 4150.124)
+2021-02-14 18:48:19.849  INFO 12365 --- [io-8001-exec-74] b.c.w.tasksfrontend.ServletInitializer   : Root context already created (using as parent).
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:48:19.880  INFO 12365 --- [io-8001-exec-74] b.c.w.tasksfrontend.ServletInitializer   : No active profile set, falling back to default profiles: default
+2021-02-14 18:48:20.074  INFO 12365 --- [io-8001-exec-74] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 189 ms
+2021-02-14 18:48:20.078  INFO 12365 --- [io-8001-exec-74] o.s.boot.web.servlet.RegistrationBean    : Filter errorPageFilter was not registered (possibly already registered?)
+2021-02-14 18:48:20.113  INFO 12365 --- [io-8001-exec-74] b.c.w.tasksfrontend.ServletInitializer   : Started ServletInitializer in 0.262 seconds (JVM running for 4150.394)
+14-Feb-2021 18:48:20.136 INFO [http-nio-8001-exec-74] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 18:48:20.154 INFO [http-nio-8001-exec-74] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [3,385] ms
+14-Feb-2021 18:55:27.022 WARNING [http-nio-8001-exec-79] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 18:55:27.539 INFO [http-nio-8001-exec-79] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+14-Feb-2021 18:55:30.103 INFO [http-nio-8001-exec-83] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+14-Feb-2021 18:56:57.952 INFO [http-nio-8001-exec-87] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:57:00.149  INFO 12365 --- [io-8001-exec-87] b.c.w.t.TaskBackendApplication           : Starting TaskBackendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 18:57:00.153  INFO 12365 --- [io-8001-exec-87] b.c.w.t.TaskBackendApplication           : No active profile set, falling back to default profiles: default
+2021-02-14 18:57:00.928  INFO 12365 --- [io-8001-exec-87] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-14 18:57:01.011  INFO 12365 --- [io-8001-exec-87] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72ms. Found 1 JPA repository interfaces.
+2021-02-14 18:57:01.466  INFO 12365 --- [io-8001-exec-87] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 18:57:01.507  INFO 12365 --- [io-8001-exec-87] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1318 ms
+2021-02-14 18:57:01.924  INFO 12365 --- [io-8001-exec-87] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-14 18:57:02.026  INFO 12365 --- [io-8001-exec-87] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2021-02-14 18:57:02.195  INFO 12365 --- [io-8001-exec-87] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-14 18:57:02.330  INFO 12365 --- [io-8001-exec-87] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2021-02-14 18:57:02.451  INFO 12365 --- [io-8001-exec-87] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2021-02-14 18:57:02.478  INFO 12365 --- [io-8001-exec-87] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-14 18:57:03.505  INFO 12365 --- [io-8001-exec-87] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-14 18:57:03.518  INFO 12365 --- [io-8001-exec-87] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-14 18:57:03.948  WARN 12365 --- [io-8001-exec-87] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-14 18:57:04.145  INFO 12365 --- [io-8001-exec-87] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 18:57:04.462  INFO 12365 --- [io-8001-exec-87] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 4.751 seconds (JVM running for 4674.743)
+14-Feb-2021 18:57:04.494 INFO [http-nio-8001-exec-87] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 18:57:04.502 INFO [http-nio-8001-exec-87] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [6,549] ms
+14-Feb-2021 18:57:19.222 INFO [http-nio-8001-exec-75] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:57:20.675  INFO 12365 --- [io-8001-exec-75] b.c.w.t.TasksFrontendApplication         : Starting TasksFrontendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 18:57:20.680  INFO 12365 --- [io-8001-exec-75] b.c.w.t.TasksFrontendApplication         : No active profile set, falling back to default profiles: default
+2021-02-14 18:57:21.612  INFO 12365 --- [io-8001-exec-75] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 880 ms
+2021-02-14 18:57:22.086  INFO 12365 --- [io-8001-exec-75] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 18:57:22.188  INFO 12365 --- [io-8001-exec-75] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-14 18:57:22.327  INFO 12365 --- [io-8001-exec-75] b.c.w.t.TasksFrontendApplication         : Started TasksFrontendApplication in 2.067 seconds (JVM running for 4692.608)
+2021-02-14 18:57:22.333  INFO 12365 --- [io-8001-exec-75] b.c.w.tasksfrontend.ServletInitializer   : Root context already created (using as parent).
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:57:22.363  INFO 12365 --- [io-8001-exec-75] b.c.w.tasksfrontend.ServletInitializer   : No active profile set, falling back to default profiles: default
+2021-02-14 18:57:22.565  INFO 12365 --- [io-8001-exec-75] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 196 ms
+2021-02-14 18:57:22.570  INFO 12365 --- [io-8001-exec-75] o.s.boot.web.servlet.RegistrationBean    : Filter errorPageFilter was not registered (possibly already registered?)
+2021-02-14 18:57:22.609  INFO 12365 --- [io-8001-exec-75] b.c.w.tasksfrontend.ServletInitializer   : Started ServletInitializer in 0.274 seconds (JVM running for 4692.889)
+14-Feb-2021 18:57:22.632 INFO [http-nio-8001-exec-75] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 18:57:22.640 INFO [http-nio-8001-exec-75] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [3,418] ms
+2021-02-14 18:57:36.840  INFO 12365 --- [io-8001-exec-88] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-14 18:57:36.851  INFO 12365 --- [io-8001-exec-88] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2021-02-14 18:57:36.940  INFO 12365 --- [io-8001-exec-89] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-14 18:57:36.952  INFO 12365 --- [io-8001-exec-89] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+14-Feb-2021 18:57:53.267 INFO [http-nio-8001-exec-87] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+14-Feb-2021 18:58:14.480 INFO [http-nio-8001-exec-96] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:58:15.955  INFO 12365 --- [io-8001-exec-96] b.c.w.t.TasksFrontendApplication         : Starting TasksFrontendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 18:58:15.958  INFO 12365 --- [io-8001-exec-96] b.c.w.t.TasksFrontendApplication         : No active profile set, falling back to default profiles: default
+2021-02-14 18:58:16.823  INFO 12365 --- [io-8001-exec-96] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 833 ms
+2021-02-14 18:58:17.298  INFO 12365 --- [io-8001-exec-96] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 18:58:17.417  INFO 12365 --- [io-8001-exec-96] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-14 18:58:17.571  INFO 12365 --- [io-8001-exec-96] b.c.w.t.TasksFrontendApplication         : Started TasksFrontendApplication in 2.031 seconds (JVM running for 4747.852)
+2021-02-14 18:58:17.576  INFO 12365 --- [io-8001-exec-96] b.c.w.tasksfrontend.ServletInitializer   : Root context already created (using as parent).
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:58:17.607  INFO 12365 --- [io-8001-exec-96] b.c.w.tasksfrontend.ServletInitializer   : No active profile set, falling back to default profiles: default
+2021-02-14 18:58:17.819  INFO 12365 --- [io-8001-exec-96] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 206 ms
+2021-02-14 18:58:17.823  INFO 12365 --- [io-8001-exec-96] o.s.boot.web.servlet.RegistrationBean    : Filter errorPageFilter was not registered (possibly already registered?)
+2021-02-14 18:58:17.862  INFO 12365 --- [io-8001-exec-96] b.c.w.tasksfrontend.ServletInitializer   : Started ServletInitializer in 0.285 seconds (JVM running for 4748.143)
+14-Feb-2021 18:58:17.887 INFO [http-nio-8001-exec-96] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 18:58:17.896 INFO [http-nio-8001-exec-96] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [3,417] ms
+14-Feb-2021 18:58:25.364 INFO [http-nio-8001-exec-93] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+14-Feb-2021 18:58:45.326 WARNING [http-nio-8001-exec-97] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 18:58:45.848 INFO [http-nio-8001-exec-97] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+14-Feb-2021 18:58:59.652 INFO [http-nio-8001-exec-88] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:59:02.011  INFO 12365 --- [io-8001-exec-88] b.c.w.t.TaskBackendApplication           : Starting TaskBackendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 18:59:02.016  INFO 12365 --- [io-8001-exec-88] b.c.w.t.TaskBackendApplication           : No active profile set, falling back to default profiles: default
+2021-02-14 18:59:03.541  INFO 12365 --- [io-8001-exec-88] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-14 18:59:03.641  INFO 12365 --- [io-8001-exec-88] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84ms. Found 1 JPA repository interfaces.
+2021-02-14 18:59:04.294  INFO 12365 --- [io-8001-exec-88] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 18:59:04.344  INFO 12365 --- [io-8001-exec-88] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2276 ms
+2021-02-14 18:59:04.919  INFO 12365 --- [io-8001-exec-88] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-14 18:59:05.060  INFO 12365 --- [io-8001-exec-88] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2021-02-14 18:59:05.300  INFO 12365 --- [io-8001-exec-88] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-14 18:59:05.467  INFO 12365 --- [io-8001-exec-88] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2021-02-14 18:59:05.571  INFO 12365 --- [io-8001-exec-88] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2021-02-14 18:59:05.600  INFO 12365 --- [io-8001-exec-88] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-14 18:59:06.606  INFO 12365 --- [io-8001-exec-88] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-14 18:59:06.618  INFO 12365 --- [io-8001-exec-88] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-14 18:59:07.115  WARN 12365 --- [io-8001-exec-88] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-14 18:59:07.289  INFO 12365 --- [io-8001-exec-88] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 18:59:07.566  INFO 12365 --- [io-8001-exec-88] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 6.053 seconds (JVM running for 4797.847)
+14-Feb-2021 18:59:07.604 INFO [http-nio-8001-exec-88] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 18:59:07.614 INFO [http-nio-8001-exec-88] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [7,962] ms
+14-Feb-2021 18:59:25.185 INFO [http-nio-8001-exec-106] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:59:26.878  INFO 12365 --- [o-8001-exec-106] b.c.w.tasksfrontend.ServletInitializer   : Starting ServletInitializer v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 18:59:26.884  INFO 12365 --- [o-8001-exec-106] b.c.w.tasksfrontend.ServletInitializer   : No active profile set, falling back to default profiles: default
+2021-02-14 18:59:28.030  INFO 12365 --- [o-8001-exec-106] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1110 ms
+2021-02-14 18:59:28.605  INFO 12365 --- [o-8001-exec-106] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 18:59:28.724  INFO 12365 --- [o-8001-exec-106] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-14 18:59:28.883  INFO 12365 --- [o-8001-exec-106] b.c.w.tasksfrontend.ServletInitializer   : Started ServletInitializer in 2.564 seconds (JVM running for 4819.164)
+2021-02-14 18:59:28.890  INFO 12365 --- [o-8001-exec-106] b.c.w.t.TasksFrontendApplication         : Root context already created (using as parent).
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 18:59:28.925  INFO 12365 --- [o-8001-exec-106] b.c.w.t.TasksFrontendApplication         : No active profile set, falling back to default profiles: default
+2021-02-14 18:59:29.214  INFO 12365 --- [o-8001-exec-106] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 283 ms
+2021-02-14 18:59:29.218  INFO 12365 --- [o-8001-exec-106] o.s.boot.web.servlet.RegistrationBean    : Filter errorPageFilter was not registered (possibly already registered?)
+2021-02-14 18:59:29.256  INFO 12365 --- [o-8001-exec-106] b.c.w.t.TasksFrontendApplication         : Started TasksFrontendApplication in 0.364 seconds (JVM running for 4819.537)
+14-Feb-2021 18:59:29.281 INFO [http-nio-8001-exec-106] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 18:59:29.289 INFO [http-nio-8001-exec-106] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [4,104] ms
+14-Feb-2021 18:59:40.559 WARNING [http-nio-8001-exec-105] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 18:59:41.084 INFO [http-nio-8001-exec-105] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+14-Feb-2021 19:00:08.459 INFO [http-nio-8001-exec-110] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 19:00:10.701  INFO 12365 --- [o-8001-exec-110] b.c.w.t.TaskBackendApplication           : Starting TaskBackendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 19:00:10.707  INFO 12365 --- [o-8001-exec-110] b.c.w.t.TaskBackendApplication           : No active profile set, falling back to default profiles: default
+2021-02-14 19:00:11.538  INFO 12365 --- [o-8001-exec-110] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-14 19:00:11.615  INFO 12365 --- [o-8001-exec-110] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 1 JPA repository interfaces.
+2021-02-14 19:00:12.060  INFO 12365 --- [o-8001-exec-110] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 19:00:12.101  INFO 12365 --- [o-8001-exec-110] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1355 ms
+2021-02-14 19:00:12.486  INFO 12365 --- [o-8001-exec-110] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-14 19:00:12.621  INFO 12365 --- [o-8001-exec-110] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2021-02-14 19:00:12.882  INFO 12365 --- [o-8001-exec-110] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-14 19:00:13.055  INFO 12365 --- [o-8001-exec-110] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2021-02-14 19:00:13.152  INFO 12365 --- [o-8001-exec-110] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2021-02-14 19:00:13.179  INFO 12365 --- [o-8001-exec-110] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-14 19:00:14.161  INFO 12365 --- [o-8001-exec-110] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-14 19:00:14.174  INFO 12365 --- [o-8001-exec-110] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-14 19:00:14.699  WARN 12365 --- [o-8001-exec-110] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-14 19:00:14.911  INFO 12365 --- [o-8001-exec-110] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 19:00:15.199  INFO 12365 --- [o-8001-exec-110] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 4.969 seconds (JVM running for 4865.479)
+14-Feb-2021 19:00:15.228 INFO [http-nio-8001-exec-110] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 19:00:15.235 INFO [http-nio-8001-exec-110] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [6,776] ms
+14-Feb-2021 19:00:29.826 INFO [http-nio-8001-exec-111] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+14-Feb-2021 19:00:29.951 INFO [http-nio-8001-exec-113] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 19:00:31.437  INFO 12365 --- [o-8001-exec-113] b.c.w.tasksfrontend.ServletInitializer   : Starting ServletInitializer v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 19:00:31.441  INFO 12365 --- [o-8001-exec-113] b.c.w.tasksfrontend.ServletInitializer   : No active profile set, falling back to default profiles: default
+2021-02-14 19:00:32.292  INFO 12365 --- [o-8001-exec-113] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 819 ms
+2021-02-14 19:00:32.759  INFO 12365 --- [o-8001-exec-113] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 19:00:32.862  INFO 12365 --- [o-8001-exec-113] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-14 19:00:32.997  INFO 12365 --- [o-8001-exec-113] b.c.w.tasksfrontend.ServletInitializer   : Started ServletInitializer in 1.967 seconds (JVM running for 4883.278)
+2021-02-14 19:00:33.002  INFO 12365 --- [o-8001-exec-113] b.c.w.t.TasksFrontendApplication         : Root context already created (using as parent).
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 19:00:33.028  INFO 12365 --- [o-8001-exec-113] b.c.w.t.TasksFrontendApplication         : No active profile set, falling back to default profiles: default
+2021-02-14 19:00:33.220  INFO 12365 --- [o-8001-exec-113] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 187 ms
+2021-02-14 19:00:33.225  INFO 12365 --- [o-8001-exec-113] o.s.boot.web.servlet.RegistrationBean    : Filter errorPageFilter was not registered (possibly already registered?)
+2021-02-14 19:00:33.265  INFO 12365 --- [o-8001-exec-113] b.c.w.t.TasksFrontendApplication         : Started TasksFrontendApplication in 0.262 seconds (JVM running for 4883.546)
+14-Feb-2021 19:00:33.286 INFO [http-nio-8001-exec-113] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 19:00:33.295 INFO [http-nio-8001-exec-113] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [3,344] ms
+14-Feb-2021 19:00:33.699 WARNING [http-nio-8001-exec-97] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 19:00:34.225 INFO [http-nio-8001-exec-97] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+14-Feb-2021 19:01:16.495 INFO [http-nio-8001-exec-128] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+14-Feb-2021 19:01:17.123 INFO [http-nio-8001-exec-121] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 19:01:18.777  INFO 12365 --- [o-8001-exec-128] b.c.w.t.TaskBackendApplication           : Starting TaskBackendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 19:01:18.781  INFO 12365 --- [o-8001-exec-128] b.c.w.t.TaskBackendApplication           : No active profile set, falling back to default profiles: default
+2021-02-14 19:01:19.631  INFO 12365 --- [o-8001-exec-128] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-14 19:01:19.719  INFO 12365 --- [o-8001-exec-128] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74ms. Found 1 JPA repository interfaces.
+2021-02-14 19:01:20.215  INFO 12365 --- [o-8001-exec-128] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 19:01:20.270  INFO 12365 --- [o-8001-exec-128] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1456 ms
+2021-02-14 19:01:20.807  INFO 12365 --- [o-8001-exec-128] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-14 19:01:20.974  INFO 12365 --- [o-8001-exec-128] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2021-02-14 19:01:21.144  INFO 12365 --- [o-8001-exec-128] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-14 19:01:21.285  INFO 12365 --- [o-8001-exec-128] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2021-02-14 19:01:21.391  INFO 12365 --- [o-8001-exec-128] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2021-02-14 19:01:21.420  INFO 12365 --- [o-8001-exec-128] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-14 19:01:22.591  INFO 12365 --- [o-8001-exec-128] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-14 19:01:22.603  INFO 12365 --- [o-8001-exec-128] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-14 19:01:23.314  WARN 12365 --- [o-8001-exec-128] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-14 19:01:23.505  INFO 12365 --- [o-8001-exec-128] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 19:01:23.795  INFO 12365 --- [o-8001-exec-128] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 5.481 seconds (JVM running for 4934.076)
+14-Feb-2021 19:01:23.824 INFO [http-nio-8001-exec-128] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 19:01:23.831 INFO [http-nio-8001-exec-128] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [7,336] ms
+14-Feb-2021 19:01:40.966 INFO [http-nio-8001-exec-120] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 19:01:42.615  INFO 12365 --- [o-8001-exec-120] b.c.w.t.TasksFrontendApplication         : Starting TasksFrontendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 12365 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 19:01:42.619  INFO 12365 --- [o-8001-exec-120] b.c.w.t.TasksFrontendApplication         : No active profile set, falling back to default profiles: default
+2021-02-14 19:01:43.604  INFO 12365 --- [o-8001-exec-120] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 949 ms
+2021-02-14 19:01:44.051  INFO 12365 --- [o-8001-exec-120] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 19:01:44.180  INFO 12365 --- [o-8001-exec-120] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-14 19:01:44.337  INFO 12365 --- [o-8001-exec-120] b.c.w.t.TasksFrontendApplication         : Started TasksFrontendApplication in 2.239 seconds (JVM running for 4954.618)
+2021-02-14 19:01:44.343  INFO 12365 --- [o-8001-exec-120] b.c.w.tasksfrontend.ServletInitializer   : Root context already created (using as parent).
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 19:01:44.375  INFO 12365 --- [o-8001-exec-120] b.c.w.tasksfrontend.ServletInitializer   : No active profile set, falling back to default profiles: default
+2021-02-14 19:01:44.596  INFO 12365 --- [o-8001-exec-120] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 215 ms
+2021-02-14 19:01:44.600  INFO 12365 --- [o-8001-exec-120] o.s.boot.web.servlet.RegistrationBean    : Filter errorPageFilter was not registered (possibly already registered?)
+2021-02-14 19:01:44.634  INFO 12365 --- [o-8001-exec-120] b.c.w.tasksfrontend.ServletInitializer   : Started ServletInitializer in 0.289 seconds (JVM running for 4954.915)
+14-Feb-2021 19:01:44.653 INFO [http-nio-8001-exec-120] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 19:01:44.660 INFO [http-nio-8001-exec-120] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [3,694] ms
