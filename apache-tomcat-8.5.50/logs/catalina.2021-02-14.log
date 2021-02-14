@@ -1,0 +1,42 @@
+14-Feb-2021 13:11:26.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+14-Feb-2021 13:11:26.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+14-Feb-2021 13:11:26.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+14-Feb-2021 13:11:26.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Feb-2021 13:11:26.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-65-generic
+14-Feb-2021 13:11:26.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2021 13:11:26.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_281/jre
+14-Feb-2021 13:11:26.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
+14-Feb-2021 13:11:26.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2021 13:11:26.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 13:11:26.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 13:11:26.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/orbite/devops/apache-tomcat-8.5.50/conf/logging.properties
+14-Feb-2021 13:11:26.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2021 13:11:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Feb-2021 13:11:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Feb-2021 13:11:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Feb-2021 13:11:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Feb-2021 13:11:26.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 13:11:26.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 13:11:26.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/orbite/devops/apache-tomcat-8.5.50/temp
+14-Feb-2021 13:11:26.318 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+14-Feb-2021 13:11:27.362 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 13:11:27.442 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Feb-2021 13:11:27.485 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 13:11:27.487 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Feb-2021 13:11:27.488 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3106 ms
+14-Feb-2021 13:11:27.720 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2021 13:11:27.721 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+14-Feb-2021 13:11:28.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples]
+14-Feb-2021 13:11:31.968 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [124] milliseconds.
+14-Feb-2021 13:11:32.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples] has finished in [4,141] ms
+14-Feb-2021 13:11:32.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs]
+14-Feb-2021 13:11:32.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs] has finished in [83] ms
+14-Feb-2021 13:11:32.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT]
+14-Feb-2021 13:11:32.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT] has finished in [91] ms
+14-Feb-2021 13:11:32.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager]
+14-Feb-2021 13:11:32.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager] has finished in [231] ms
+14-Feb-2021 13:11:32.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager]
+14-Feb-2021 13:11:32.696 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager] has finished in [119] ms
+14-Feb-2021 13:11:32.701 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 13:11:32.709 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 13:11:32.712 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5223 ms
