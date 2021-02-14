@@ -256,3 +256,85 @@
 2021-02-14 14:11:47.174  INFO 2428 --- [nio-8001-exec-1] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 6.686 seconds (JVM running for 3624.411)
 14-Feb-2021 14:11:47.235 INFO [http-nio-8001-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 14-Feb-2021 14:11:47.245 INFO [http-nio-8001-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [9,214] ms
+2021-02-14 14:16:38.770  INFO 2428 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-14 14:16:38.771  INFO 2428 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+14-Feb-2021 14:16:38.772 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 14:16:38.779 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+2021-02-14 14:16:38.781  INFO 2428 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+14-Feb-2021 14:16:38.786 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+2021-02-14 14:16:38.808  INFO 2428 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+14-Feb-2021 14:16:38.866 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 14:16:38.948 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 14:16:38.957 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 14:16:38.964 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 14:16:38.967 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 15:55:05.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+14-Feb-2021 15:55:05.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+14-Feb-2021 15:55:05.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+14-Feb-2021 15:55:05.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-65-generic
+14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_281/jre
+14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
+14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2021 15:55:05.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 15:55:05.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 15:55:05.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/orbite/devops/apache-tomcat-8.5.50/conf/logging.properties
+14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Feb-2021 15:55:05.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 15:55:05.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 15:55:05.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/orbite/devops/apache-tomcat-8.5.50/temp
+14-Feb-2021 15:55:05.965 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+14-Feb-2021 15:55:07.039 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 15:55:07.136 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Feb-2021 15:55:07.181 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 15:55:07.184 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Feb-2021 15:55:07.186 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3936 ms
+14-Feb-2021 15:55:07.344 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2021 15:55:07.348 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+14-Feb-2021 15:55:07.464 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.4.RELEASE)
+
+2021-02-14 15:55:14.304  INFO 3399 --- [ost-startStop-1] b.c.w.t.TaskBackendApplication           : Starting TaskBackendApplication v0.0.1-SNAPSHOT on orbite-desktop with PID 3399 (/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend/WEB-INF/classes started by orbite in /home/orbite/devops/apache-tomcat-8.5.50/bin)
+2021-02-14 15:55:14.311  INFO 3399 --- [ost-startStop-1] b.c.w.t.TaskBackendApplication           : No active profile set, falling back to default profiles: default
+2021-02-14 15:55:15.731  INFO 3399 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-14 15:55:15.910  INFO 3399 --- [ost-startStop-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 157ms. Found 1 JPA repository interfaces.
+2021-02-14 15:55:16.795  INFO 3399 --- [ost-startStop-1] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-02-14 15:55:16.842  INFO 3399 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2446 ms
+2021-02-14 15:55:17.530  INFO 3399 --- [ost-startStop-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-14 15:55:17.730  INFO 3399 --- [ost-startStop-1] org.hibernate.Version                    : HHH000412: Hibernate Core {5.4.10.Final}
+2021-02-14 15:55:17.976  INFO 3399 --- [ost-startStop-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2021-02-14 15:55:18.284  INFO 3399 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-14 15:55:18.722  INFO 3399 --- [ost-startStop-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-14 15:55:18.793  INFO 3399 --- [ost-startStop-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2021-02-14 15:55:21.134  INFO 3399 --- [ost-startStop-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-14 15:55:21.146  INFO 3399 --- [ost-startStop-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-14 15:55:21.752  WARN 3399 --- [ost-startStop-1] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-14 15:55:21.977  INFO 3399 --- [ost-startStop-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-14 15:55:22.310  INFO 3399 --- [ost-startStop-1] b.c.w.t.TaskBackendApplication           : Started TaskBackendApplication in 9.306 seconds (JVM running for 21.129)
+14-Feb-2021 15:55:22.751 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 15:55:23.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [15,578] ms
+14-Feb-2021 15:55:23.044 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples]
+14-Feb-2021 15:55:23.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples] has finished in [298] ms
+14-Feb-2021 15:55:23.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs]
+14-Feb-2021 15:55:23.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs] has finished in [16] ms
+14-Feb-2021 15:55:23.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT]
+14-Feb-2021 15:55:23.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT] has finished in [20] ms
+14-Feb-2021 15:55:23.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager]
+14-Feb-2021 15:55:23.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager] has finished in [132] ms
+14-Feb-2021 15:55:23.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager]
+14-Feb-2021 15:55:23.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager] has finished in [28] ms
+14-Feb-2021 15:55:23.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 15:55:23.571 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 15:55:23.585 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 16398 ms
