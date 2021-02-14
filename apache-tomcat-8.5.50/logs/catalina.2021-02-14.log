@@ -1,100 +1,200 @@
-14-Feb-2021 13:11:26.220 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
-14-Feb-2021 13:11:26.311 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
-14-Feb-2021 13:11:26.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
-14-Feb-2021 13:11:26.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
-14-Feb-2021 13:11:26.312 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-65-generic
-14-Feb-2021 13:11:26.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
-14-Feb-2021 13:11:26.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_281/jre
-14-Feb-2021 13:11:26.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
-14-Feb-2021 13:11:26.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
-14-Feb-2021 13:11:26.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/orbite/devops/apache-tomcat-8.5.50
-14-Feb-2021 13:11:26.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/orbite/devops/apache-tomcat-8.5.50
-14-Feb-2021 13:11:26.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/orbite/devops/apache-tomcat-8.5.50/conf/logging.properties
-14-Feb-2021 13:11:26.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-14-Feb-2021 13:11:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-14-Feb-2021 13:11:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-14-Feb-2021 13:11:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
-14-Feb-2021 13:11:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
-14-Feb-2021 13:11:26.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/orbite/devops/apache-tomcat-8.5.50
-14-Feb-2021 13:11:26.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/orbite/devops/apache-tomcat-8.5.50
-14-Feb-2021 13:11:26.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/orbite/devops/apache-tomcat-8.5.50/temp
-14-Feb-2021 13:11:26.318 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
-14-Feb-2021 13:11:27.362 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
-14-Feb-2021 13:11:27.442 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
-14-Feb-2021 13:11:27.485 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
-14-Feb-2021 13:11:27.487 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
-14-Feb-2021 13:11:27.488 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3106 ms
-14-Feb-2021 13:11:27.720 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
-14-Feb-2021 13:11:27.721 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
-14-Feb-2021 13:11:28.032 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples]
-14-Feb-2021 13:11:31.968 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [124] milliseconds.
-14-Feb-2021 13:11:32.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples] has finished in [4,141] ms
-14-Feb-2021 13:11:32.172 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs]
-14-Feb-2021 13:11:32.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs] has finished in [83] ms
-14-Feb-2021 13:11:32.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT]
-14-Feb-2021 13:11:32.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT] has finished in [91] ms
-14-Feb-2021 13:11:32.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager]
-14-Feb-2021 13:11:32.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager] has finished in [231] ms
-14-Feb-2021 13:11:32.577 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager]
-14-Feb-2021 13:11:32.696 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager] has finished in [119] ms
-14-Feb-2021 13:11:32.701 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
-14-Feb-2021 13:11:32.709 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
-14-Feb-2021 13:11:32.712 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5223 ms
-14-Feb-2021 14:11:38.032 INFO [http-nio-8001-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
-14-Feb-2021 14:11:47.235 INFO [http-nio-8001-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-14-Feb-2021 14:11:47.245 INFO [http-nio-8001-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [9,214] ms
-14-Feb-2021 14:16:38.772 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
-14-Feb-2021 14:16:38.779 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
-14-Feb-2021 14:16:38.786 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
-14-Feb-2021 14:16:38.866 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
-14-Feb-2021 14:16:38.948 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
-14-Feb-2021 14:16:38.957 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
-14-Feb-2021 14:16:38.964 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
-14-Feb-2021 14:16:38.967 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
-14-Feb-2021 15:55:05.881 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
-14-Feb-2021 15:55:05.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
-14-Feb-2021 15:55:05.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
-14-Feb-2021 15:55:05.961 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
-14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-65-generic
-14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
-14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_281/jre
-14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
-14-Feb-2021 15:55:05.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
-14-Feb-2021 15:55:05.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/orbite/devops/apache-tomcat-8.5.50
-14-Feb-2021 15:55:05.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/orbite/devops/apache-tomcat-8.5.50
-14-Feb-2021 15:55:05.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/orbite/devops/apache-tomcat-8.5.50/conf/logging.properties
-14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
-14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
-14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
-14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
-14-Feb-2021 15:55:05.964 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
-14-Feb-2021 15:55:05.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/orbite/devops/apache-tomcat-8.5.50
-14-Feb-2021 15:55:05.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/orbite/devops/apache-tomcat-8.5.50
-14-Feb-2021 15:55:05.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/orbite/devops/apache-tomcat-8.5.50/temp
-14-Feb-2021 15:55:05.965 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
-14-Feb-2021 15:55:07.039 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
-14-Feb-2021 15:55:07.136 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
-14-Feb-2021 15:55:07.181 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
-14-Feb-2021 15:55:07.184 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
-14-Feb-2021 15:55:07.186 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3936 ms
-14-Feb-2021 15:55:07.344 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
-14-Feb-2021 15:55:07.348 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
-14-Feb-2021 15:55:07.464 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
-14-Feb-2021 15:55:22.751 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-14-Feb-2021 15:55:23.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [15,578] ms
-14-Feb-2021 15:55:23.044 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples]
-14-Feb-2021 15:55:23.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples] has finished in [298] ms
-14-Feb-2021 15:55:23.342 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs]
-14-Feb-2021 15:55:23.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs] has finished in [16] ms
-14-Feb-2021 15:55:23.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT]
-14-Feb-2021 15:55:23.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT] has finished in [20] ms
-14-Feb-2021 15:55:23.378 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager]
-14-Feb-2021 15:55:23.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager] has finished in [132] ms
-14-Feb-2021 15:55:23.510 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager]
-14-Feb-2021 15:55:23.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager] has finished in [28] ms
-14-Feb-2021 15:55:23.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
-14-Feb-2021 15:55:23.571 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
-14-Feb-2021 15:55:23.585 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 16398 ms
-14-Feb-2021 15:58:08.673 INFO [http-nio-8001-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
-14-Feb-2021 15:58:12.851 INFO [http-nio-8001-exec-7] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-14-Feb-2021 15:58:12.860 INFO [http-nio-8001-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [4,187] ms
+14-Feb-2021 17:29:29.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+14-Feb-2021 17:29:29.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+14-Feb-2021 17:29:29.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+14-Feb-2021 17:29:29.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Feb-2021 17:29:29.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-65-generic
+14-Feb-2021 17:29:29.594 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2021 17:29:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_281/jre
+14-Feb-2021 17:29:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
+14-Feb-2021 17:29:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2021 17:29:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 17:29:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 17:29:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/orbite/devops/apache-tomcat-8.5.50/conf/logging.properties
+14-Feb-2021 17:29:29.595 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2021 17:29:29.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Feb-2021 17:29:29.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Feb-2021 17:29:29.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Feb-2021 17:29:29.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Feb-2021 17:29:29.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 17:29:29.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 17:29:29.596 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/orbite/devops/apache-tomcat-8.5.50/temp
+14-Feb-2021 17:29:29.596 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+14-Feb-2021 17:29:29.763 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 17:29:29.775 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[HTTP/1.1-8001]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:848)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:444)
+		at sun.nio.ch.Net.bind(Net.java:436)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:223)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:70)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+		... 13 more
+14-Feb-2021 17:29:29.779 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 17:29:29.782 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:552)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:848)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:136)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:639)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:662)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:303)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:473)
+	Caused by: java.net.BindException: Address already in use
+		at sun.nio.ch.Net.bind0(Native Method)
+		at sun.nio.ch.Net.bind(Net.java:444)
+		at sun.nio.ch.Net.bind(Net.java:436)
+		at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+		at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:221)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1118)
+		at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:223)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+		... 13 more
+14-Feb-2021 17:29:29.782 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 716 ms
+14-Feb-2021 17:29:29.832 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2021 17:29:29.833 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+14-Feb-2021 17:29:29.843 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples]
+14-Feb-2021 17:29:30.452 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples] has finished in [609] ms
+14-Feb-2021 17:29:30.453 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs]
+14-Feb-2021 17:29:30.494 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs] has finished in [40] ms
+14-Feb-2021 17:29:30.496 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT]
+14-Feb-2021 17:29:30.540 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT] has finished in [45] ms
+14-Feb-2021 17:29:30.545 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager]
+14-Feb-2021 17:29:30.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager] has finished in [49] ms
+14-Feb-2021 17:29:30.595 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager]
+14-Feb-2021 17:29:30.618 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager] has finished in [23] ms
+14-Feb-2021 17:29:30.627 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 844 ms
+14-Feb-2021 17:29:30.629 SEVERE [main] org.apache.catalina.core.StandardServer.await StandardServer.await: create[localhost:8005]: 
+	java.net.BindException: Address already in use (Bind failed)
+		at java.net.PlainSocketImpl.socketBind(Native Method)
+		at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:513)
+		at java.net.ServerSocket.bind(ServerSocket.java:375)
+		at java.net.ServerSocket.<init>(ServerSocket.java:237)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:421)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:776)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:722)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:343)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:474)
+14-Feb-2021 17:29:30.631 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 17:29:30.631 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 17:29:30.632 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Feb-2021 17:29:30.664 INFO [1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 17:29:30.665 INFO [1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 17:29:30.665 INFO [1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 17:29:30.665 INFO [1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 17:39:10.469 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.50
+14-Feb-2021 17:39:10.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Dec 7 2019 19:19:46 UTC
+14-Feb-2021 17:39:10.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.50.0
+14-Feb-2021 17:39:10.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Feb-2021 17:39:10.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-65-generic
+14-Feb-2021 17:39:10.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Feb-2021 17:39:10.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk1.8.0_281/jre
+14-Feb-2021 17:39:10.473 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_281-b09
+14-Feb-2021 17:39:10.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+14-Feb-2021 17:39:10.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 17:39:10.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 17:39:10.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/orbite/devops/apache-tomcat-8.5.50/conf/logging.properties
+14-Feb-2021 17:39:10.474 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Feb-2021 17:39:10.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Feb-2021 17:39:10.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Feb-2021 17:39:10.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Feb-2021 17:39:10.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Feb-2021 17:39:10.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 17:39:10.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/orbite/devops/apache-tomcat-8.5.50
+14-Feb-2021 17:39:10.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/orbite/devops/apache-tomcat-8.5.50/temp
+14-Feb-2021 17:39:10.475 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+14-Feb-2021 17:39:10.644 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 17:39:10.660 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Feb-2021 17:39:10.692 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 17:39:10.694 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+14-Feb-2021 17:39:10.697 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 747 ms
+14-Feb-2021 17:39:10.755 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Feb-2021 17:39:10.756 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.50
+14-Feb-2021 17:39:10.778 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+14-Feb-2021 17:39:16.404 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 17:39:16.434 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [5,656] ms
+14-Feb-2021 17:39:16.435 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples]
+14-Feb-2021 17:39:16.631 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/examples] has finished in [196] ms
+14-Feb-2021 17:39:16.631 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs]
+14-Feb-2021 17:39:16.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/docs] has finished in [16] ms
+14-Feb-2021 17:39:16.648 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT]
+14-Feb-2021 17:39:16.664 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/ROOT] has finished in [16] ms
+14-Feb-2021 17:39:16.664 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager]
+14-Feb-2021 17:39:16.717 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/manager] has finished in [53] ms
+14-Feb-2021 17:39:16.717 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager]
+14-Feb-2021 17:39:16.736 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/orbite/devops/apache-tomcat-8.5.50/webapps/host-manager] has finished in [19] ms
+14-Feb-2021 17:39:16.740 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8001"]
+14-Feb-2021 17:39:16.765 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+14-Feb-2021 17:39:16.768 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6070 ms
+14-Feb-2021 17:40:11.182 INFO [http-nio-8001-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+14-Feb-2021 17:40:19.610 INFO [http-nio-8001-exec-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 17:40:19.621 INFO [http-nio-8001-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [8,439] ms
+14-Feb-2021 17:40:24.174 WARNING [http-nio-8001-exec-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 17:40:24.704 INFO [http-nio-8001-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+14-Feb-2021 17:41:00.946 INFO [http-nio-8001-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+14-Feb-2021 17:41:08.096 INFO [http-nio-8001-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 17:41:08.104 INFO [http-nio-8001-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [7,158] ms
+14-Feb-2021 17:41:17.559 WARNING [http-nio-8001-exec-5] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 17:41:18.086 INFO [http-nio-8001-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+14-Feb-2021 17:43:00.607 INFO [http-nio-8001-exec-17] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+14-Feb-2021 17:43:07.997 INFO [http-nio-8001-exec-17] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 17:43:08.005 INFO [http-nio-8001-exec-17] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [7,397] ms
+14-Feb-2021 17:43:20.606 WARNING [http-nio-8001-exec-18] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 17:43:21.133 INFO [http-nio-8001-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+14-Feb-2021 17:44:06.856 INFO [http-nio-8001-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+14-Feb-2021 17:44:13.854 INFO [http-nio-8001-exec-25] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 17:44:13.863 INFO [http-nio-8001-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [7,006] ms
+14-Feb-2021 17:44:18.236 WARNING [http-nio-8001-exec-22] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 17:44:18.762 INFO [http-nio-8001-exec-22] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+14-Feb-2021 17:48:00.754 INFO [http-nio-8001-exec-30] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+14-Feb-2021 17:48:07.408 INFO [http-nio-8001-exec-30] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 17:48:07.416 INFO [http-nio-8001-exec-30] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [6,662] ms
+14-Feb-2021 17:48:18.499 WARNING [http-nio-8001-exec-31] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [tasks-backend] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Feb-2021 17:48:19.024 INFO [http-nio-8001-exec-31] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks-backend]
+14-Feb-2021 17:49:28.567 INFO [http-nio-8001-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war]
+14-Feb-2021 17:49:35.954 INFO [http-nio-8001-exec-42] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 17:49:35.961 INFO [http-nio-8001-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks-backend.war] has finished in [7,394] ms
+14-Feb-2021 17:53:26.792 INFO [http-nio-8001-exec-46] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+14-Feb-2021 17:55:25.967 INFO [http-nio-8001-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+14-Feb-2021 17:55:29.414 INFO [http-nio-8001-exec-49] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 17:55:29.423 INFO [http-nio-8001-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [3,456] ms
+14-Feb-2021 17:55:35.559 INFO [http-nio-8001-exec-50] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+14-Feb-2021 17:55:54.326 INFO [http-nio-8001-exec-39] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+14-Feb-2021 17:55:58.386 INFO [http-nio-8001-exec-39] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 17:55:58.394 INFO [http-nio-8001-exec-39] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [4,068] ms
+14-Feb-2021 18:03:07.906 INFO [http-nio-8001-exec-60] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/tasks]
+14-Feb-2021 18:03:08.024 INFO [http-nio-8001-exec-58] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war]
+14-Feb-2021 18:03:11.520 INFO [http-nio-8001-exec-58] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Feb-2021 18:03:11.527 INFO [http-nio-8001-exec-58] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/orbite/devops/apache-tomcat-8.5.50/webapps/tasks.war] has finished in [3,503] ms
